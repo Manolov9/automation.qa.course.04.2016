@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/company/BankAccountData.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/company/ComparingFloats.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/com/company/DeclareVariables.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/company/EmployeeData.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/company/IsoscelesTriangle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/company/NullValuesArithmetic.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/company/PrintTheASCIITable.java" charset="UTF-8" />
+  </component>
+</project>
