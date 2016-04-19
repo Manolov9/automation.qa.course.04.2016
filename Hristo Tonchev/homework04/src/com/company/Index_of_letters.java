@@ -16,8 +16,8 @@ public class Index_of_letters {
         System.out.println("Vuvedi duma: ");
         Scanner scan = new Scanner(System.in);
         String word = scan.next().toLowerCase();
-/*
-        for (char letter: word)
+		char[] word2 =word.toCharArray();
+        for (char letter: word2)
         {
         for (int index =0;index<alphabet.length;index++)
         {
@@ -27,6 +27,6 @@ public class Index_of_letters {
             }
 
         }
-        }*/
+        }
     }
 }
