@@ -6,12 +6,15 @@ package OOP;
 public class Worker extends Human implements IWorker {
     private double weekSalary;
     private double workHoursPerDay;
+    public Worker (){}
 
     public Worker(String firstName, String lastName, double weekSalary, double workHoursPerDay) {
         super(firstName, lastName);
         this.weekSalary = weekSalary;
         this.workHoursPerDay = workHoursPerDay;
+        this.setWorkHoursPerDay(workHoursPerDay);
     }
+
 
     @Override
     public void setLastName(String lastName) {
@@ -46,6 +49,13 @@ public class Worker extends Human implements IWorker {
     }
 
     public void setWorkHoursPerDay(double workHoursPerDay) {
+        try {
+            if (workHoursPerDay <2 || workHoursPerDay > 14){
+                throw new Exception("Rabotnite 4asove mejdu 2 i 14 4asa ");
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         this.workHoursPerDay = workHoursPerDay;
     }
 
