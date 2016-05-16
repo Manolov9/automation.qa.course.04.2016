@@ -13,6 +13,7 @@ public class Worker extends Human implements IWorker {
         this.weekSalary = weekSalary;
         this.workHoursPerDay = workHoursPerDay;
         this.setWorkHoursPerDay(workHoursPerDay);
+        this.setWeekSalary(weekSalary);
     }
 
 
@@ -61,12 +62,14 @@ public class Worker extends Human implements IWorker {
 
     public double moneyPerHour() {
 
-        return this.getWeekSalary() / getWorkHoursPerDay();
+        return this.getWeekSalary() / (getWorkHoursPerDay()*5);
 
     }
 
     @Override
     public void work(String FirstName, String LastName, double workHours, double monthlySalary) {
+        workHours=workHoursPerDay*22;
+        monthlySalary=workHours*moneyPerHour();
         System.out.println(FirstName + " "+ LastName +  "works "+  workHours+ " hours per day and makes" +monthlySalary+ "leva a month. ");
 
     }

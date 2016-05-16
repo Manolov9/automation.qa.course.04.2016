@@ -4,10 +4,11 @@ package OOP;
  * Created by Tonchev on 26.4.2016 г..
  */
 public class Student extends Human {
-    private String enumeration="COLLEGE";
+    private String enumeration = "COLLEGE";
     private double averageGrade;
 
-    public Student(){}
+    public Student() {
+    }
 
     public Student(String firstName, String lastName) {
         this.setFirstName(firstName);
@@ -38,31 +39,29 @@ public class Student extends Human {
 
         super.setLastName(lastName);
     }
-    public String getEnumeration()
-    {
-        return enumeration="College";
+
+    public String getEnumeration() {
+        return enumeration = "College";
     }
-    public void setEnumeration(String enumeration)
-    {
-        this.enumeration="COLLEGE";
+
+    public void setEnumeration(String enumeration) {
+        this.enumeration = "COLLEGE";
     }
-    public double getAverageGrade()
-    {
-        return  averageGrade;
+
+    public double getAverageGrade() {
+        return averageGrade;
     }
-    public void  setAverageGrade(double averageGrade)
-    {
+
+    public void setAverageGrade(double averageGrade) {
         try {
-            if (averageGrade < 2 || averageGrade > 6)
-            {
+            if (averageGrade < 2 || averageGrade > 6) {
                 throw new Exception("Ocnekata da e mejdu 2 i 6");
             }
 
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
-        this.averageGrade=averageGrade;
+        this.averageGrade = averageGrade;
     }
-
 
 }
