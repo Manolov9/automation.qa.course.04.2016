@@ -63,13 +63,7 @@ public class JiraTest {
         WebElement isssue_submit=driver.findElement(By.id("create-issue-submit"));
         isssue_submit.click();
 
-
-
-
-
-
-
-        //driver.quit();
+        driver.quit();
     }
     @After
     public void dontKnowYet()
