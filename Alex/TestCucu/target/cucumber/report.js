@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 23488853702,
+  "duration": 9629830359,
   "status": "passed"
 });
 formatter.scenario({
@@ -26,16 +26,22 @@ formatter.scenario({
 });
 formatter.step({
   "line": 6,
-  "name": "user account login in jira",
+  "name": "user account login in jira and gets greatings on  jira home page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 7,
-  "name": "the user logout from jira",
+  "comments": [
+    {
+      "line": 7,
+      "value": "#    And User Creats a bug"
+    }
+  ],
+  "line": 8,
+  "name": "user creats a bug",
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "the user successfully logout from jira",
   "keyword": "Then "
 });
@@ -43,25 +49,25 @@ formatter.match({
   "location": "CucamberSteps.user_account_login_in_jira()"
 });
 formatter.result({
-  "duration": 7216347631,
+  "duration": 9924822677,
   "status": "passed"
 });
 formatter.match({
-  "location": "CucamberSteps.the_user_logout_from_jira()"
+  "location": "CucamberSteps.user_creats_a_bug()"
 });
 formatter.result({
-  "duration": 35306,
+  "duration": 10758550062,
   "status": "passed"
 });
 formatter.match({
   "location": "CucamberSteps.the_user_successfully_logout_from_jira()"
 });
 formatter.result({
-  "duration": 38180,
+  "duration": 2335406967,
   "status": "passed"
 });
 formatter.after({
-  "duration": 600751434,
+  "duration": 131370,
   "status": "passed"
 });
 });

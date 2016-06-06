@@ -3,6 +3,7 @@ Feature: Logout functionality
 
   @complete
   Scenario: Login with user and logout
-    Given user account login in jira
-    When the user logout from jira
+    Given user account login in jira and gets greatings on  jira home page
+#    And User Creats a bug
+    When user creats a bug
     Then the user successfully logout from jira
