@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 3268191959,
+  "duration": 9496594512,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,25 +43,25 @@ formatter.match({
   "location": "CucumberSteps.user_account_login_in_jira()"
 });
 formatter.result({
-  "duration": 10068625004,
+  "duration": 74981095,
   "status": "passed"
 });
 formatter.match({
   "location": "CucumberSteps.the_user_logout_from_jira()"
 });
 formatter.result({
-  "duration": 58298,
+  "duration": 10263,
   "status": "passed"
 });
 formatter.match({
   "location": "CucumberSteps.the_user_successfully_jira()"
 });
 formatter.result({
-  "duration": 37771,
+  "duration": 9443,
   "status": "passed"
 });
 formatter.after({
-  "duration": 347859038,
+  "duration": 333151187,
   "status": "passed"
 });
 });
