@@ -5,8 +5,16 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import pageobjects.PageObjects;
+
+import java.io.File;
+import java.io.IOException;
+
 import static junit.framework.Assert.assertEquals;
 
 public class CucumberSteps {
@@ -20,7 +28,10 @@ public class CucumberSteps {
     }
 
     @After
-    public void destroyDriver() {
+    public void destroyDriver() throws IOException {
+        File scrFile =
+                ((TakesScreenshot)pageObjects.getWebDriver()).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(scrFile, new File("E:\\IT academy\\homework14\\Screenshots\\screenshots.png"));
         pageObjects.close();
     }
 

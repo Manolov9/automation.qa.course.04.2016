@@ -1,7 +1,7 @@
 Feature: Logout functionality
   As a user I want be able to login and logout from the platform.
 
-  @Pcomplete
+  @complete
   Scenario: Login with user and logout
     Given user account login in jira
     When the user logout from jira
