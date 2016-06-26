@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(strict = true,
     features = {"classpath:features"},
-    format = {"pretty","html:target/cucumber"},
+    format = {"pretty","json:target/Results.json"},
     tags = {"@complete"})
 
 public class RunCukesTest {
