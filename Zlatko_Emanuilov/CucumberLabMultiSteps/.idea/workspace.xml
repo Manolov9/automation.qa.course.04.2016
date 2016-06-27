@@ -2,10 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92f269dc-2a66-4734-9091-befb4f783aec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Maven/src/test/resources/main/java/GoogleTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Maven/src/test/resources/main/java/WaitTool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Maven/src/test/resources/main/main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Maven/src/test/resources/main/main1.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/copyright/src/test/java/RunCukesTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/copyright/src/test/java/pageobjects/PageObjects.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/copyright/src/test/java/pageobjects/Tools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/copyright/src/test/java/steps/CucumberSteps.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/copyright/src/test/resources/features/AddIssue.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/copyright/src/test/resources/features/Logout.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/copyright/src/test/test.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__io_netty_netty_3_5_2_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_16.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_18.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_12_v20150709.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_12_v20150709.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_2_12_v20150709.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_12_v20150709.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_2_12_v20150709.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_48_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_48_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_2_48_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_48_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_48_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_48_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_48_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_leg_rc_2_48_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_48_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_48_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_48_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__org_webbitserver_webbit_0_4_14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_leg_rc_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Maven/automationqa.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CucumberLab/target/test-classes/RunCukesTest.class" afterPath="$PROJECT_DIR$/../CucumberLab/target/test-classes/RunCukesTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../CucumberLab/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CucumberLab/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CucumberLab/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CucumberLab/Maven.iml" afterPath="$PROJECT_DIR$/../CucumberLab/Maven.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CucumberLab/automationqa.iml" afterPath="$PROJECT_DIR$/../CucumberLab/automationqa.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CucumberLab/pom.xml" afterPath="$PROJECT_DIR$/../CucumberLab/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CucumberLab/src/test/java/RunCukesTest.java" afterPath="$PROJECT_DIR$/../CucumberLab/src/test/java/RunCukesTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CucumberLab/src/test/resources/features/AddIssue.feature" afterPath="$PROJECT_DIR$/../CucumberLab/src/test/resources/features/AddIssue.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CucumberLab/target/cucumber/formatter.js" afterPath="$PROJECT_DIR$/../CucumberLab/target/cucumber/formatter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CucumberLab/target/cucumber/index.html" afterPath="$PROJECT_DIR$/../CucumberLab/target/cucumber/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CucumberLab/target/cucumber/jquery-1.8.2.min.js" afterPath="$PROJECT_DIR$/../CucumberLab/target/cucumber/jquery-1.8.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CucumberLab/target/cucumber/report.js" afterPath="$PROJECT_DIR$/../CucumberLab/target/cucumber/report.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CucumberLab/target/cucumber/style.css" afterPath="$PROJECT_DIR$/../CucumberLab/target/cucumber/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CucumberLab/target/test-classes/features/AddIssue.feature" afterPath="$PROJECT_DIR$/../CucumberLab/target/test-classes/features/AddIssue.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Maven.iml" afterPath="$PROJECT_DIR$/Maven.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Maven/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/target/cucumber/formatter.js" afterPath="$PROJECT_DIR$/../Maven/target/cucumber/formatter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/target/cucumber/index.html" afterPath="$PROJECT_DIR$/../Maven/target/cucumber/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/target/cucumber/jquery-1.8.2.min.js" afterPath="$PROJECT_DIR$/../Maven/target/cucumber/jquery-1.8.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/target/cucumber/report.js" afterPath="$PROJECT_DIR$/../Maven/target/cucumber/report.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/target/cucumber/style.css" afterPath="$PROJECT_DIR$/../Maven/target/cucumber/style.css" />
     </list>
     <ignored path="Maven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,86 +108,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CucumberSteps2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/CucumberSteps2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="53" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Logout.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Logout.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CucumberSteps1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/CucumberSteps1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageObjects.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/PageObjects.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tools.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Tools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddIssue.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/AddIssue.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -171,12 +163,12 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/AddIssue.feature" />
         <option value="$PROJECT_DIR$/src/test/java/cucumber/CucumberSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/RunCukesTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/Tools.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/PageObjects.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/CucumberSteps2.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/CucumberSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/CucumberSteps1.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -195,8 +187,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="834" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -205,7 +197,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -223,9 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,6 +243,148 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberLabMultiSteps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberLabMultiSteps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberLabMultiSteps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pageobjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberLabMultiSteps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberLabMultiSteps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assertions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberLabMultiSteps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberLabMultiSteps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -280,12 +411,93 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberLabMultiSteps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberLabMultiSteps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberLabMultiSteps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pageobjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -715,12 +927,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunCukesTest - 2016.06.14 at 21h 49m 44s.xml">
-      <configuration name="RunCukesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunCukesTest - 2016.06.14 at 21h 50m 30s.xml">
-      <configuration name="RunCukesTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunCukesTest - 2016.06.14 at 21h 52m 01s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
@@ -733,13 +939,19 @@
     <history-entry file="RunCukesTest - 2016.06.15 at 21h 58m 32s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2016.06.26 at 16h 57m 24s.xml">
+    <history-entry file="RunCukesTest - 2016.06.28 at 00h 57m 20s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2016.06.26 at 18h 15m 26s.xml">
+    <history-entry file="RunCukesTest - 2016.06.28 at 01h 03m 38s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2016.06.26 at 20h 31m 43s.xml">
+    <history-entry file="RunCukesTest - 2016.06.28 at 01h 04m 18s.xml">
+      <configuration name="RunCukesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunCukesTest - 2016.06.28 at 01h 12m 29s.xml">
+      <configuration name="RunCukesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunCukesTest - 2016.06.28 at 01h 12m 53s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestAssertions - 2016.05.10 at 21h 24m 17s.xml">
@@ -747,7 +959,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="834" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -758,11 +970,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46074075" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46265328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23007712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23027718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -801,16 +1013,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/CucumberSteps1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/AddIssue.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1165,40 +1367,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Logout.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/CucumberSteps2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/CucumberSteps1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/PageObjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+        <state relative-caret-position="414">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1207,11 +1379,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Tools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Logout.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,11 +1401,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/steps/CucumberSteps1.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/CucumberSteps1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="53" selection-end-column="10" />
+        <state relative-caret-position="305">
+          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/CucumberSteps2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
