@@ -1,0 +1,130 @@
+Homework 1
+
+Task_00 Play with the Java API Documentation
+    Play with Java API Documentation. You may find it online at http://docs.oracle.com/javase/8/docs/api/.
+    • Find information about System.out.println method.
+    • Find information about the LocalDateTime class.
+    • Find information about the java.util.Scanner class.
+
+    You do not have to submit anything in your homework for this task.
+
+Task_01 Print Your Hometown
+    Create a simple Java program PrintHometown.java (console application) to print the name of your hometown,
+    compile and run it.
+    Submit the source code as part of your homework.
+
+
+
+Task_02 Print the Current Date and Time
+    Create a simple Java program CurrentDateTime.java to print the current date and time.
+    Submit the Java class CurrentDateTime as part of your homework.
+
+Task_03 Sum Two Numbers
+    Write a program SumTwoNumbers.java that enters two integers from the console, calculates and prints their sum.
+    Search in Internet to learn how to read numbers from the console. Examples:
+
+Task_04 Declare Variables
+    *	Declare five variables choosing for each of them the most appropriate of the types
+        `byte, sbyte, short, ushort, int, uint, long, ulong`
+        to represent the following values: `52130, -115, 4825932, 97, -10000`.
+    *	Choose a large enough type for each number to ensure it will fit in it.
+        Try to compile the code.
+
+
+Task_05 Float or Double?
+    *	Which of the following values can be assigned to a variable of type `float` and which to a variable of type `double`: `34.567839023, 12.345, 8923.1234857, 3456.091`?
+    *	Write a program to assign the numbers in variables and print them to ensure no precision is lost.
+
+Task_06 Variable in Hexadecimal Format
+    *	Declare an integer variable and assign it with the value `254` in hexadecimal format (`0x##`).
+    *	Use Windows Calculator to find its hexadecimal representation.
+    *	Print the variable and ensure that the result is `254`.
+
+Task_07 Unicode Character
+    *	Declare a character variable and assign it with the symbol that has Unicode code `42` (decimal)
+        using the `\u00XX` syntax, and then print it.
+        Hint: first, use the Windows Calculator to find the hexadecimal representation of `42`.
+        The output should be `*`.
+
+Task_08 Boolean Variable
+    *	Declare a Boolean variable called `isFemale` and assign an appropriate value corresponding to your gender.
+    *	Print it on the console.
+
+Task_09 Strings and Objects
+    *	Declare two string variables and assign them with `Hello` and `World`.
+    *	Declare an object variable and assign it with the concatenation of the first two variables (mind adding an interval between).
+    *	Declare a third string variable and initialize it with the value of the object variable (you should perform type casting).
+
+
+Task_10 Quotes in Strings
+    *	Declare two string variables and assign them with following value: `The "use" of quotations causes difficulties.`
+    *	Do the above in two different ways - with and without using quoted strings.
+    *	Print the variables to ensure that their value was correctly defined.
+
+Task_11 Isosceles Triangle
+    *	Write a program that prints an isosceles triangle of 9 copyright symbols `©`, something like this:
+
+    ```
+       ©
+      © ©
+     ©   ©
+    © © © ©
+    ```
+
+    _Note:  The `©` symbol may be displayed incorrectly at the console so you may need to change the console character
+            encoding to `UTF-8` and assign a Unicode-friendly font in the console._
+
+    _Note:  Under old versions of Windows the `©` symbol may still be displayed incorrectly,
+            regardless of how much effort you put to fix it._
+
+Task_12 Exchange Variable Values
+    *	Declare two integer variables `a` and `b` and assign them with `5` and `10` and after that
+        exchange their values by using some programming logic.
+    *	Print the variable values before and after the exchange.
+
+Task_13 Employee Data
+    A marketing company wants to keep record of its employees. Each record would have the following characteristics:
+    *	First name
+    *	Last name
+    *	Age (0...100)
+    *	Gender (m or f)
+    *	Personal ID number (e.g. 8306112507)
+    *	Unique employee number (27560000…27569999)
+
+    Declare the variables needed to keep the information for a single employee using appropriate primitive data types. Use descriptive names. Print the data at the console.
+
+Task_14 Bank Account Data
+    *	A bank account has a holder name (first name, middle name and last name), available amount of money (balance), bank name, IBAN, 3 credit card numbers associated with the account.
+    *	Declare the variables needed to keep the information for a single bank account using the appropriate data types and descriptive names.
+
+Task_15 Null Values Arithmetic
+    *	Create a program that assigns null values to an integer and to a double variable.
+    *	Try to print these variables at the console.
+    *	Try to add some number or the null literal to these variables and print the result.
+
+
+Task_16 Comparing Floats
+    *	Write a program that safely compares floating-point numbers (double) with precision `eps = 0.000001`.
+
+    _Note: Two floating-point numbers `a` and `b` cannot be compared directly by `a == b`
+     because of the nature of the floating-point arithmetic.
+     Therefore, we assume two numbers are equal if they are more closely to each other than a fixed constant `eps`._
+
+    Examples:a
+
+|     Number a     |     Number b     | Equal (with precision eps=0.000001) |                                          Explanation                                          |
+|:----------------:|:----------------:|:-----------------------------------:|:---------------------------------------------------------------------------------------------:|
+|    5.3           |    6.01          |    false                            |                          The difference of 0.71 is too   big (> eps)                          |
+|    5.00000001    |    5.00000003    |    true                             |    The difference 0.00000002 < eps                                                            |
+|    5.00000005    |    5.00000001    |    true                             |    The difference 0.00000004 < eps                                                            |
+|    -0.0000007    |    0.00000007    |    true                             |    The difference 0.00000077 < eps                                                            |
+|    -4.999999     |    -4.999998     |    false                            |    Border case. The difference 0.000001   == eps. We consider the numbers are   different.    |
+|    4.999999      |    4.999998      |    false                            |    Border case. The difference 0.000001   == eps. We consider the numbers are   different.    |
+
+Task_17 Print the ASCII Table
+    *	Find online more information about ASCII (American Standard Code for Information Interchange)
+        and write a program that prints the entire ASCII table of characters on the console (characters from 0 to 255).
+
+    _Note: Some characters have a special purpose and will not be displayed as expected. You may skip them or display them differently._
+
+    _Note: You may need to use for-loops (learn in Internet how)._
