@@ -6,6 +6,6 @@ Feature: Adding an issue in Jira
     When go to Add issue "imalo edno vreme" bla bla
     Then add issue with <tittle>, <env> and <description>
     And verify that the issue is created successfully
-   Examples:
+    Examples:
       | type | tittle  | env  | description |
       |aaaa | Test    | test | test        |
