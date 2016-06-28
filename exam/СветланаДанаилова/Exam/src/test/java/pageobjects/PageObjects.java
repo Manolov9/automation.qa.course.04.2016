@@ -88,6 +88,10 @@ public class PageObjects extends Tools {
         return findElementBy(By.xpath("/html/body/div[6]/div/div/div/div/form/table/tbody/tr[197]/td/div/div[2]/div/div[1]/ul/li[2]/a"));
     }
 
+    public WebElement getbuildNow(){
+        return findElementBy(By.xpath("/html/body/div[4]/div[1]/div[1]/div[5]/a[2]"));
+    }
+
 
 
 
@@ -141,6 +145,9 @@ public class PageObjects extends Tools {
         getPost().click();
         getCuc().click();
 
+    }
+    public void buildJob(){
+        getbuildNow().click();
     }
 
 

@@ -67,6 +67,7 @@ public class CucumberSteps {
         pageObjects.configure("This is an exam", "https://github.com/shtraker/automation.qa.course.04.2016", "0", "1024x768x24", "1");
         Thread.sleep(10000);
         pageObjects.Build( "cd exam/SvetlanaDanailova/Exam && mvn clean test");
+        pageObjects.buildJob();
     }
 
     @Then("^make the build$")
