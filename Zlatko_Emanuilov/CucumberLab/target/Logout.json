@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 11528386497,
+              "duration": 6158105765,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 1098859524,
+              "duration": 969065623,
               "status": "passed"
             },
             "match": {
@@ -34,37 +34,37 @@
         "steps": [
           {
             "result": {
-              "duration": 118347616,
+              "duration": 190009840,
               "status": "passed"
             },
             "line": 6,
-            "name": "user account login in jira",
+            "name": "user account login in jenkins",
             "match": {
-              "location": "CucumberSteps.user_account_login_in_jira()"
+              "location": "CucumberSteps.user_account_login_in_jenkins()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 29899,
+              "duration": 67830,
               "status": "passed"
             },
             "line": 7,
-            "name": "the user logout from jira",
+            "name": "the user logout from jenkins",
             "match": {
-              "location": "CucumberSteps.the_user_logout_from_jira()"
+              "location": "CucumberSteps.the_user_logout_from_jenkins()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 29898,
+              "duration": 26329,
               "status": "passed"
             },
             "line": 8,
-            "name": "the user successfully logout from jira",
+            "name": "the user successfully logout from jenkins",
             "match": {
-              "location": "CucumberSteps.the_user_successfully_jira()"
+              "location": "CucumberSteps.the_user_successfully_jenkins()"
             },
             "keyword": "Then "
           }

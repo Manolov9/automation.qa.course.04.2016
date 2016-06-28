@@ -28,7 +28,7 @@ public class Tools {
         profile.setPreference("network.http.phishy-userpass-length", 255);
         webDriver = new FirefoxDriver(profile);
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        webDriver.get("http://jira.atlassian.com");
+        webDriver.get("http://192.168.0.106:8080");
         webDriver.manage().window().setSize(new Dimension(1300, 700));
     }
 

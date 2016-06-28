@@ -3,7 +3,7 @@ Feature: Logout functionality
 
   @complete
   Scenario: Login with user and logout
-    Given user account login in jira
-    When the user logout from jira
-    Then the user successfully logout from jira
+    Given user account login in jenkins
+    When the user logout from jenkins
+    Then the user successfully logout from jenkins
 

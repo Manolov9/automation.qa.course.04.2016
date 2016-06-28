@@ -21,18 +21,18 @@ public class CucumberSteps {
         pageObjects.close();
     }
 
-    @Given("^user account login in jira$")
-    public void user_account_login_in_jira() throws Throwable {
+    @Given("^user account login in jenkins$")
+    public void user_account_login_in_jenkins() throws Throwable {
         pageObjects.login();
     }
 
-    @When("^the user logout from jira$")
-    public void the_user_logout_from_jira()  {
+    @When("^the user logout from jenkins$")
+    public void the_user_logout_from_jenkins()  {
 
     }
 
-    @Then("^the user successfully logout from jira$")
-    public void the_user_successfully_jira() throws Throwable {
+    @Then("^the user successfully logout from jenkins$")
+    public void the_user_successfully_jenkins() throws Throwable {
 
     }
 
