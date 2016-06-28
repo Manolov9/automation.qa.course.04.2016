@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8086023727,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberSteps.buildDriver()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login with user and logout",
+        "description": "",
+        "id": "logout-functionality;login-with-user-and-logout",
+        "after": [
+          {
+            "result": {
+              "duration": 2416507616,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberSteps.destroyDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 239521979,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user account login in jenkins",
+            "match": {
+              "location": "CucumberSteps.user_account_login_in_jenkins()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26775,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user logout from jenkins",
+            "match": {
+              "location": "CucumberSteps.the_user_logout_from_jenkins()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32576,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user successfully logout from jenkins",
+            "match": {
+              "location": "CucumberSteps.the_user_successfully_jenkins()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@complete"
+          }
+        ]
+      }
+    ],
+    "name": "Logout functionality",
+    "description": "As a user I want be able to login and logout from the platform.",
+    "id": "logout-functionality",
+    "keyword": "Feature",
+    "uri": "features/Logout.feature"
+  }
+]
