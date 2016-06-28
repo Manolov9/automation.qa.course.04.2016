@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6804690276,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberSteps.buildDriver()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Create a job in Jenkins",
+        "description": "",
+        "id": "create-issue-in-jenkis;create-a-job-in-jenkins",
+        "after": [
+          {
+            "result": {
+              "duration": 1237479786,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberSteps.destroyDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 185905910,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user with access to Jenkins",
+            "match": {
+              "location": "CucumberSteps.user_account_login_in_jira()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1686192051,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login in Jenkins",
+            "match": {
+              "location": "CucumberSteps.the_user_logout_from_jira()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17416414694,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1130, 14). Other element would receive the click: \u003cul id\u003d\"breadcrumbs\"\u003e...\u003c/ul\u003e\n  (Session info: chrome\u003d51.0.2704.103)\n  (Driver info: chromedriver\u003d2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform\u003dWindows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 106 milliseconds\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b1534ae328c771e0856c93e187490ca824\u0027, time: \u00272016-03-15 10:43:46\u0027\nSystem info: host: \u0027Win7x64-PC\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_77\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir\u003dC:\\Users\\Tonchev\\AppData\\Local\\Temp\\scoped_dir7356_25717}, takesHeapSnapshot\u003dtrue, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d51.0.2704.103, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: c025f841b3cc886a2e1c2bcb7e137a4c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat pageobjects.PageObjects.defineProject(PageObjects.java:137)\r\n\tat steps.CucumberSteps.go_to_Add_issue(CucumberSteps.java:64)\r\n\tat ✽.When create new build job and configure it(features/AddIssue.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "create new build job and configure it",
+            "match": {
+              "location": "CucumberSteps.go_to_Add_issue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "make the build",
+            "match": {
+              "location": "CucumberSteps.add_issue_with_Test_test_and_test()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@complete"
+          }
+        ]
+      }
+    ],
+    "name": "Create Issue in jenkis",
+    "description": "",
+    "id": "create-issue-in-jenkis",
+    "keyword": "Feature",
+    "uri": "features/AddIssue.feature"
+  }
+]
