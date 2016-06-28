@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5570113673,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginLogout.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login with user and logout",
+        "description": "",
+        "id": "loginlogout-functionality;login-with-user-and-logout",
+        "after": [
+          {
+            "result": {
+              "duration": 1210961524,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginLogout.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2613720492,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user account login in Jenkins",
+            "match": {
+              "location": "LoginLogout.user_account_login_in_Jenkins()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1251069320,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user logout from Jenkins",
+            "match": {
+              "location": "LoginLogout.the_user_logout_from_Jenkins()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13388,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user successfully logout from Jenkins",
+            "match": {
+              "location": "LoginLogout.the_user_successfully_jira()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@complete"
+          }
+        ]
+      }
+    ],
+    "name": "LogInLogOut functionality",
+    "description": "As a user I want be able to login and logout from the platform.",
+    "id": "loginlogout-functionality",
+    "keyword": "Feature",
+    "uri": "features/LogInLogOut.feature"
+  }
+]
