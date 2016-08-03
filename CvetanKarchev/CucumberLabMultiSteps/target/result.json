@@ -1,0 +1,172 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Add issue in jira",
+        "description": "",
+        "id": "adding-an-issue-in-jira;add-issue-in-jira;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11682567300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user aaaa account login in jiraaaa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aaaa",
+                  "offset": 5
+                }
+              ],
+              "location": "CucumberSteps2.user_aaaa_account_login_in_jiraaaa(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192546,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "go to Add issue \"imalo edno vreme\" bla bla",
+            "match": {
+              "arguments": [
+                {
+                  "val": "imalo edno vreme",
+                  "offset": 17
+                }
+              ],
+              "location": "CucumberSteps2.go_to_Add_issue_bla_bla(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169557,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "add issue with Test, test and test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 15
+                },
+                {
+                  "val": "test",
+                  "offset": 21
+                },
+                {
+                  "val": "test",
+                  "offset": 30
+                }
+              ],
+              "location": "CucumberSteps1.add_issue_with_Test_test_and_test(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5461932208,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify that the issue is created successfully",
+            "match": {
+              "location": "CucumberSteps1.verify_that_credits_charged_with_money_euro()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@complete"
+          }
+        ]
+      }
+    ],
+    "name": "Adding an issue in Jira",
+    "description": "",
+    "id": "adding-an-issue-in-jira",
+    "keyword": "Feature",
+    "uri": "features/AddIssue.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login with user and logout",
+        "description": "",
+        "id": "logout-functionality;login-with-user-and-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10331852352,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user account login in jira",
+            "match": {
+              "location": "CucumberSteps1.user_account_login_in_jira()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5382655527,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user logout from jira",
+            "match": {
+              "location": "CucumberSteps2.the_user_logout_from_jira()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117006,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user successfully logout from jira",
+            "match": {
+              "location": "CucumberSteps1.the_user_successfully_jira()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@complete"
+          }
+        ]
+      }
+    ],
+    "name": "Logout functionality",
+    "description": "As a user I want be able to login and logout from the platform.",
+    "id": "logout-functionality",
+    "keyword": "Feature",
+    "uri": "features/Logout.feature"
+  }
+]

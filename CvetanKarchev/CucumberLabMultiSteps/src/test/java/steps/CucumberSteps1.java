@@ -1,15 +1,19 @@
 package steps;
 
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageobjects.PageObjects;
+import pageobjects.PageObjects2;
 
 public class CucumberSteps1 {
 
     public PageObjects pageObjects = new PageObjects();
+    public PageObjects2 pageObjects2 = new PageObjects2();
+
+    public void destroyDriver() {
+        pageObjects.close();
+    }
 
     @Given("^user account login in jira$")
     public void user_account_login_in_jira() throws Throwable {
@@ -36,6 +40,14 @@ public class CucumberSteps1 {
 
     @Then("^verify that the issue is created successfully$")
     public void verify_that_credits_charged_with_money_euro() throws Throwable {
+        //here i use pageobjects from the second class
+        pageObjects2.createBugButon().click();
+        pageObjects2.cancelButton().click();
+        Thread.sleep(2000); // this is to wait until it's closed, it's stupid way to do it.
 
+        //here i use pageobjects from the first class
+        pageObjects.logout();
+
+        destroyDriver();
     }
 }

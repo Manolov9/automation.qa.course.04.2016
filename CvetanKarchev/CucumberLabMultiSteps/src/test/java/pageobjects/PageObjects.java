@@ -27,21 +27,7 @@ public class PageObjects extends Tools {
     public WebElement clickLoginButton() {
         return findElementBy(By.xpath("//*[@id=\"login-submit\"]"));
     }
-    public WebElement createBugButon() {
-        return findElementBy(By.xpath("//*[@id=\"create_link\"]"));
-    }
-    public WebElement getTitle(){
-        return findElementBy(By.xpath("//*[@id=\"summary\"]"));
-    }
-    public WebElement getEnv(){
-        return findElementBy(By.xpath("//*[@id=\"environment\"]"));
-    }
-    public WebElement getDescription(){
-        return findElementBy(By.xpath("//*[@id=\"description\"]"));
-    }
-    public WebElement clickCreateFinalBug(){
-        return findElementBy(By.xpath("//*[@id=\"create-issue-submit\"]"));
-    }
+
     public void logout() {
         getMyAccountMenu().click();
         getLogOutButton().click();
